@@ -7,7 +7,7 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
     this->setWindowTitle("Server");
-    ui->spinBox->setRange(8888, 9999);
+    ui->spinBox->setRange(8888, 9999);  
 
     tcpServer = new QTcpServer();
 
