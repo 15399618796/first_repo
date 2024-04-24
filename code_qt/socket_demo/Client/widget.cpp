@@ -33,6 +33,8 @@ Widget::Widget(QWidget *parent)
         QByteArray array = msg.toUtf8();
         tcpSocket->write(array);
         ui->textBrowser->append("客户端:" + msg);
+        ui->textEdit->clear();
+        ui->textEdit->setFocus();
     });
 
     // 接收消息
