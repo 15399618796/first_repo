@@ -45,5 +45,7 @@ void Widget::on_pushButton_2_clicked()
 {
     tcpSocket->write(ui->lineEdit->text().toUtf8().data());
     ui->textBrowser->append("服务器：" + ui->lineEdit->text());
+    ui->lineEdit->clear();
+    ui->lineEdit->setFocus();
 }
 
