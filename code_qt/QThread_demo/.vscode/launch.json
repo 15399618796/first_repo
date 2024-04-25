@@ -1,0 +1,26 @@
+{//运行调试配置文件
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb_qmake) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            //根据生成的执行文件名自行更改,${workspaceRoot}表示当前文件夹
+            "program": "${workspaceRoot}/build/QThread_demo", 
+            "args": [
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
