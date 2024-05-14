@@ -15,6 +15,8 @@ void CreateThread::run()
     for(int i = 0; i < m_num; i ++){
         list.append(rand() % 1000);
     }
-
-    emit sendList(list);
+    
+    //写个冒泡排序
+   
+    emit sendList(list); 
 }

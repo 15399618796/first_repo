@@ -30,4 +30,6 @@ private:
     QVector<int> m_list;
 };
 
+
+
 #endif // BUBBLETHREAD_H

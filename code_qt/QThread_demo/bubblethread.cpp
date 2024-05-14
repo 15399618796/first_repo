@@ -17,5 +17,6 @@ void BubbleThread::run()
             }
         }
     }
+
     emit finished(m_list); // 发送完成信号
 }

@@ -1,6 +1,7 @@
 #ifndef QUICKTHREAD_H
 #define QUICKTHREAD_H
 
+
 #include <QThread>
 #include <QVector>
 

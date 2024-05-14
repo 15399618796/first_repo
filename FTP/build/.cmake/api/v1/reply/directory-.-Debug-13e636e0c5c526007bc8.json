@@ -1,0 +1,745 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"export_install_target",
+			"add_event_library",
+			"generate_pkgconfig",
+			"install_export"
+		],
+		"files" : 
+		[
+			"cmake/AddEventLibrary.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 950,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 951,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 956,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 18
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 17
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 965,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 25
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 973,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 121,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 34
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 177,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 36
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 33
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 33
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 39
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1493,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1498,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1503,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1518,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1511,
+				"parent" : 44
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 1521,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1511,
+				"parent" : 46
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 1525,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_core.a"
+			],
+			"targetId" : "event_core_static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 35,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_core-2.1.so.7.0.1",
+				"lib/libevent_core-2.1.so.7"
+			],
+			"targetId" : "event_core_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 34,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_core-2.1.so"
+			],
+			"targetId" : "event_core_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 34,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/lib/libevent_core.so"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/libevent_core.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_extra.a"
+			],
+			"targetId" : "event_extra_static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 37,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_extra-2.1.so.7.0.1",
+				"lib/libevent_extra-2.1.so.7"
+			],
+			"targetId" : "event_extra_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 36,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_extra-2.1.so"
+			],
+			"targetId" : "event_extra_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 36,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/lib/libevent_extra.so"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/libevent_extra.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_openssl.a"
+			],
+			"targetId" : "event_openssl_static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 39,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_openssl-2.1.so.7.0.1",
+				"lib/libevent_openssl-2.1.so.7"
+			],
+			"targetId" : "event_openssl_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 38,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_openssl-2.1.so"
+			],
+			"targetId" : "event_openssl_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 38,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/lib/libevent_openssl.so"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/libevent_openssl.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_pthreads.a"
+			],
+			"targetId" : "event_pthreads_static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 41,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_pthreads-2.1.so.7.0.1",
+				"lib/libevent_pthreads-2.1.so.7"
+			],
+			"targetId" : "event_pthreads_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 40,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent_pthreads-2.1.so"
+			],
+			"targetId" : "event_pthreads_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 40,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/lib/libevent_pthreads.so"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/libevent_pthreads.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent.a"
+			],
+			"targetId" : "event_static::@6890427a1f51a3e7e1df",
+			"targetIndex" : 43,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent-2.1.so.7.0.1",
+				"lib/libevent-2.1.so.7"
+			],
+			"targetId" : "event_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 42,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libevent-2.1.so"
+			],
+			"targetId" : "event_shared::@6890427a1f51a3e7e1df",
+			"targetIndex" : 42,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "lib",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/lib/libevent.so"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build/libevent.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "dev",
+			"destination" : "include",
+			"paths" : 
+			[
+				"include/evdns.h",
+				"include/evrpc.h",
+				"include/event.h",
+				"include/evhttp.h",
+				"include/evutil.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "dev",
+			"destination" : "include/event2",
+			"paths" : 
+			[
+				"include/event2/buffer.h",
+				"include/event2/bufferevent.h",
+				"include/event2/bufferevent_compat.h",
+				"include/event2/bufferevent_struct.h",
+				"include/event2/buffer_compat.h",
+				"include/event2/dns.h",
+				"include/event2/dns_compat.h",
+				"include/event2/dns_struct.h",
+				"include/event2/event.h",
+				"include/event2/event_compat.h",
+				"include/event2/event_struct.h",
+				"include/event2/http.h",
+				"include/event2/http_compat.h",
+				"include/event2/http_struct.h",
+				"include/event2/keyvalq_struct.h",
+				"include/event2/listener.h",
+				"include/event2/rpc.h",
+				"include/event2/rpc_compat.h",
+				"include/event2/rpc_struct.h",
+				"include/event2/tag.h",
+				"include/event2/tag_compat.h",
+				"include/event2/thread.h",
+				"include/event2/util.h",
+				"include/event2/visibility.h",
+				"/home/along/code/FTP/build/include/event2/event-config.h",
+				"include/event2/bufferevent_ssl.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "dev",
+			"destination" : "/usr/local/lib/cmake/libevent",
+			"paths" : 
+			[
+				"/home/along/code/FTP/build//CMakeFiles/LibeventConfig.cmake",
+				"/home/along/code/FTP/build/LibeventConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "dev",
+			"destination" : "/usr/local/lib/cmake/libevent",
+			"exportName" : "LibeventTargets-static",
+			"exportTargets" : 
+			[
+				{
+					"id" : "event_core_static::@6890427a1f51a3e7e1df",
+					"index" : 35
+				},
+				{
+					"id" : "event_extra_static::@6890427a1f51a3e7e1df",
+					"index" : 37
+				},
+				{
+					"id" : "event_openssl_static::@6890427a1f51a3e7e1df",
+					"index" : 39
+				},
+				{
+					"id" : "event_pthreads_static::@6890427a1f51a3e7e1df",
+					"index" : 41
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/_usr/local/lib/cmake/libevent/LibeventTargets-static.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 47,
+			"component" : "dev",
+			"destination" : "/usr/local/lib/cmake/libevent",
+			"exportName" : "LibeventTargets-shared",
+			"exportTargets" : 
+			[
+				{
+					"id" : "event_core_shared::@6890427a1f51a3e7e1df",
+					"index" : 34
+				},
+				{
+					"id" : "event_extra_shared::@6890427a1f51a3e7e1df",
+					"index" : 36
+				},
+				{
+					"id" : "event_openssl_shared::@6890427a1f51a3e7e1df",
+					"index" : 38
+				},
+				{
+					"id" : "event_pthreads_shared::@6890427a1f51a3e7e1df",
+					"index" : 40
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/_usr/local/lib/cmake/libevent/LibeventTargets-shared.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "runtime",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"event_rpcgen.py"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

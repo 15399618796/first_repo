@@ -94,14 +94,10 @@ DIST          = /opt/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri \
@@ -219,6 +215,7 @@ DIST          = /opt/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf \
+		../../.qmake.stash \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -289,14 +286,10 @@ Makefile: ../../hello.pro /opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /op
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri \
-		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri \
@@ -414,6 +407,7 @@ Makefile: ../../hello.pro /opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /op
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf \
@@ -473,14 +467,10 @@ Makefile: ../../hello.pro /opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /op
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_bootstrap_private.pri:
-/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts.pri:
-/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_charts_private.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_core_private.pri:
-/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri:
-/opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_dbus_private.pri:
 /opt/Qt/5.15.2/gcc_64/mkspecs/modules/qt_lib_designer.pri:
@@ -598,6 +588,7 @@ Makefile: ../../hello.pro /opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /op
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/qt_config.prf:
 /opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf:
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/exclusive_builds.prf:
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/toolchain.prf:
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/default_pre.prf:
@@ -1026,7 +1017,26 @@ mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtGui/qtouchdevice.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qtabwidget.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtGui/qicon.h \
-		ui_mainwindow.h
+		ui_mainwindow.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QApplication \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtCore/qcoreapplication.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtCore/qeventloop.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qdesktopwidget.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qguiapplication.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qinputmethod.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QMenuBar \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qmenubar.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qmenu.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qaction.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qactiongroup.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QPushButton \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qpushbutton.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractbutton.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QStatusBar \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qstatusbar.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../../mainwindow.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 

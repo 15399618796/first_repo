@@ -1,0 +1,692 @@
+[
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/buffer.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/buffer.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/buffer.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/bufferevent.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/bufferevent_filter.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/bufferevent_pair.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/bufferevent_ratelim.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/bufferevent_sock.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/event.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/evmap.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evmap.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evmap.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/evthread.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evthread.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evthread.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/evutil.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/evutil_rand.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/evutil_time.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/listener.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/listener.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/listener.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/log.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/log.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/log.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/signal.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/signal.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/signal.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/strlcpy.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/select.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/select.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/select.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/poll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/poll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/poll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_core_static.dir/epoll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/epoll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/epoll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/buffer.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/buffer.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/buffer.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/bufferevent.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/bufferevent_filter.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/bufferevent_pair.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/bufferevent_ratelim.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/bufferevent_sock.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/event.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/evmap.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evmap.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evmap.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/evthread.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evthread.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evthread.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/evutil.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/evutil_rand.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/evutil_time.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/listener.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/listener.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/listener.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/log.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/log.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/log.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/signal.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/signal.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/signal.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/strlcpy.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/select.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/select.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/select.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/poll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/poll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/poll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_core_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_core_shared.dir/epoll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/epoll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/epoll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_extra_static.dir/event_tagging.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_extra_static.dir/http.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/http.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/http.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_extra_static.dir/evdns.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evdns.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evdns.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_extra_static.dir/evrpc.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evrpc.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evrpc.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_extra_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_extra_shared.dir/event_tagging.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_extra_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_extra_shared.dir/http.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/http.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/http.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_extra_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_extra_shared.dir/evdns.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evdns.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evdns.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_extra_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_extra_shared.dir/evrpc.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evrpc.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evrpc.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_openssl_static.dir/bufferevent_openssl.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_openssl.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_openssl.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_openssl_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_openssl_shared.dir/bufferevent_openssl.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_openssl.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_openssl.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_pthreads_static.dir/evthread_pthread.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evthread_pthread.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evthread_pthread.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_pthreads_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_pthreads_shared.dir/evthread_pthread.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evthread_pthread.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evthread_pthread.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/buffer.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/buffer.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/buffer.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/bufferevent.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/bufferevent_filter.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/bufferevent_pair.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/bufferevent_ratelim.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/bufferevent_sock.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/event.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/evmap.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evmap.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evmap.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/evthread.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evthread.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evthread.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/evutil.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/evutil_rand.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/evutil_time.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/listener.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/listener.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/listener.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/log.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/log.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/log.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/signal.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/signal.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/signal.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/strlcpy.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/select.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/select.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/select.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/poll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/poll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/poll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/epoll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/epoll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/epoll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/event_tagging.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/http.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/http.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/http.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/evdns.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evdns.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evdns.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event_static.dir/evrpc.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evrpc.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evrpc.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/buffer.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/buffer.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/buffer.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/bufferevent.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/bufferevent_filter.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_filter.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/bufferevent_pair.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_pair.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/bufferevent_ratelim.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_ratelim.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/bufferevent_sock.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/bufferevent_sock.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/event.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/evmap.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evmap.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evmap.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/evthread.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evthread.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evthread.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/evutil.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/evutil_rand.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_rand.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/evutil_time.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evutil_time.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/listener.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/listener.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/listener.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/log.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/log.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/log.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/signal.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/signal.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/signal.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/strlcpy.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/strlcpy.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/select.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/select.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/select.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/poll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/poll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/poll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/epoll.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/epoll.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/epoll.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/event_tagging.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/event_tagging.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/http.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/http.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/http.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/evdns.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evdns.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evdns.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -Devent_shared_EXPORTS -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -fPIC -fvisibility=hidden -o CMakeFiles/event_shared.dir/evrpc.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/evrpc.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/evrpc.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/event-read-fifo.dir/sample/event-read-fifo.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/event-read-fifo.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/event-read-fifo.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/hello-world.dir/sample/hello-world.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/hello-world.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/hello-world.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/signal-test.dir/sample/signal-test.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/signal-test.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/signal-test.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/http-connect.dir/sample/http-connect.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/http-connect.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/http-connect.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/time-test.dir/sample/time-test.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/time-test.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/time-test.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/https-client.dir/sample/https-client.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/https-client.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/https-client.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/https-client.dir/sample/openssl_hostname_validation.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/openssl_hostname_validation.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/openssl_hostname_validation.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/https-client.dir/sample/hostcheck.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/hostcheck.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/hostcheck.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/le-proxy.dir/sample/le-proxy.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/le-proxy.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/le-proxy.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/dns-example.dir/sample/dns-example.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/dns-example.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/dns-example.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/http-server.dir/sample/http-server.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/sample/http-server.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/sample/http-server.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/bench_http.dir/test/bench_http.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/bench_http.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/bench_http.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/bench_httpclient.dir/test/bench_httpclient.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/bench_httpclient.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/bench_httpclient.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/bench.dir/test/bench.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/bench.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/bench.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/bench_cascade.dir/test/bench_cascade.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/bench_cascade.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/bench_cascade.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress.gen.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress.gen.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress.gen.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_buffer.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_buffer.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_buffer.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_bufferevent.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_bufferevent.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_bufferevent.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_dns.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_dns.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_dns.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_et.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_et.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_et.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_finalize.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_finalize.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_finalize.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_http.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_http.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_http.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_listener.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_listener.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_listener.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_main.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_main.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_main.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_minheap.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_minheap.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_minheap.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_rpc.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_rpc.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_rpc.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_testutils.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_testutils.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_testutils.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_util.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_util.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_util.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/tinytest.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/tinytest.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/tinytest.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_thread.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_thread.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_thread.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_zlib.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_zlib.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_zlib.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/regress.dir/test/regress_ssl.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/regress_ssl.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/regress_ssl.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-changelist.dir/test/test-changelist.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-changelist.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-changelist.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-eof.dir/test/test-eof.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-eof.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-eof.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-closed.dir/test/test-closed.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-closed.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-closed.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-fdleak.dir/test/test-fdleak.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-fdleak.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-fdleak.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-init.dir/test/test-init.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-init.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-init.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-time.dir/test/test-time.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-time.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-time.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-weof.dir/test/test-weof.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-weof.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-weof.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-dumpevents.dir/test/test-dumpevents.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-dumpevents.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-dumpevents.c"
+},
+{
+  "directory": "/home/along/code/FTP/build",
+  "command": "/usr/bin/gcc -DHAVE_CONFIG_H -DTINYTEST_LOCAL -D_GNU_SOURCE=1 -I/home/along/code/FTP/build/include -I/home/along/code/FTP/libevent-2.1.12-stable/include -I/home/along/code/FTP/libevent-2.1.12-stable/compat -I/home/along/code/FTP/libevent-2.1.12-stable  -fdiagnostics-color=always -Wall -Wextra -Wno-unused-parameter -Wstrict-aliasing -Wstrict-prototypes -fno-strict-aliasing -Wmissing-prototypes -Winit-self -Wmissing-field-initializers -Wdeclaration-after-statement -Waddress -Wnormalized=id -Woverride-init -Wlogical-op -Wwrite-strings -g -o CMakeFiles/test-ratelim.dir/test/test-ratelim.c.o -c /home/along/code/FTP/libevent-2.1.12-stable/test/test-ratelim.c",
+  "file": "/home/along/code/FTP/libevent-2.1.12-stable/test/test-ratelim.c"
+}
+]
