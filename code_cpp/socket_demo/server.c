@@ -79,6 +79,7 @@ void accept_working(void *arg){
 
     close(poolInfo->fd);
     //close(cfd);
+
 }
 
 void working(void *arg)
@@ -107,4 +108,3 @@ void working(void *arg)
         }
     }
 }
-w
