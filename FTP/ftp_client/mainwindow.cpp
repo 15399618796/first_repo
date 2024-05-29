@@ -8,6 +8,7 @@
 #include <QCloseEvent>
 #include <ftpconnectdlg.h>
 #include <QFileDialog>
+#include <QDebug>
 
 void MainWindow::init_menu()
 {

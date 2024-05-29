@@ -1,0 +1,867 @@
+Start testing: May 20 19:11 CST
+----------------------------------------------------------
+Unable to find executable: /home/along/code/FTP/build/bin/test-changelist
+1/54 Testing: test-changelist__timerfd_EPOLL
+1/54 Test: test-changelist__timerfd_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-changelist__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-changelist__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-changelist__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-eof
+2/54 Testing: test-eof__timerfd_EPOLL
+2/54 Test: test-eof__timerfd_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-eof__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-eof__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-eof__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-closed
+3/54 Testing: test-closed__timerfd_EPOLL
+3/54 Test: test-closed__timerfd_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-closed__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-closed__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-closed__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-fdleak
+4/54 Testing: test-fdleak__timerfd_EPOLL
+4/54 Test: test-fdleak__timerfd_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-fdleak__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-fdleak__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-fdleak__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-init
+5/54 Testing: test-init__timerfd_EPOLL
+5/54 Test: test-init__timerfd_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-init__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-init__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-init__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-time
+6/54 Testing: test-time__timerfd_EPOLL
+6/54 Test: test-time__timerfd_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-time__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-time__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-time__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-weof
+7/54 Testing: test-weof__timerfd_EPOLL
+7/54 Test: test-weof__timerfd_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-weof__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-weof__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-weof__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-dumpevents
+8/54 Testing: test-dumpevents__timerfd_EPOLL
+8/54 Test: test-dumpevents__timerfd_EPOLL
+Command: "" "|" "/usr/bin/python3" "/home/along/code/FTP/libevent-2.1.12-stable/test/check-dumpevents.py"
+Directory: /home/along/code/FTP/build
+"test-dumpevents__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-dumpevents__timerfd_EPOLL" end time: May 20 19:11 CST
+"test-dumpevents__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+9/54 Testing: regress__timerfd_EPOLL
+9/54 Test: regress__timerfd_EPOLL
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__timerfd_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__timerfd_EPOLL" end time: May 20 19:11 CST
+"regress__timerfd_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+10/54 Testing: regress__timerfd_EPOLL_debug
+10/54 Test: regress__timerfd_EPOLL_debug
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__timerfd_EPOLL_debug" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__timerfd_EPOLL_debug" end time: May 20 19:11 CST
+"regress__timerfd_EPOLL_debug" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-changelist
+11/54 Testing: test-changelist__changelist_EPOLL
+11/54 Test: test-changelist__changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-changelist__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-changelist__changelist_EPOLL" end time: May 20 19:11 CST
+"test-changelist__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-eof
+12/54 Testing: test-eof__changelist_EPOLL
+12/54 Test: test-eof__changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-eof__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-eof__changelist_EPOLL" end time: May 20 19:11 CST
+"test-eof__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-closed
+13/54 Testing: test-closed__changelist_EPOLL
+13/54 Test: test-closed__changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-closed__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-closed__changelist_EPOLL" end time: May 20 19:11 CST
+"test-closed__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-fdleak
+14/54 Testing: test-fdleak__changelist_EPOLL
+14/54 Test: test-fdleak__changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-fdleak__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-fdleak__changelist_EPOLL" end time: May 20 19:11 CST
+"test-fdleak__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-init
+15/54 Testing: test-init__changelist_EPOLL
+15/54 Test: test-init__changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-init__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-init__changelist_EPOLL" end time: May 20 19:11 CST
+"test-init__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-time
+16/54 Testing: test-time__changelist_EPOLL
+16/54 Test: test-time__changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-time__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-time__changelist_EPOLL" end time: May 20 19:11 CST
+"test-time__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-weof
+17/54 Testing: test-weof__changelist_EPOLL
+17/54 Test: test-weof__changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-weof__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-weof__changelist_EPOLL" end time: May 20 19:11 CST
+"test-weof__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-dumpevents
+18/54 Testing: test-dumpevents__changelist_EPOLL
+18/54 Test: test-dumpevents__changelist_EPOLL
+Command: "" "|" "/usr/bin/python3" "/home/along/code/FTP/libevent-2.1.12-stable/test/check-dumpevents.py"
+Directory: /home/along/code/FTP/build
+"test-dumpevents__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-dumpevents__changelist_EPOLL" end time: May 20 19:11 CST
+"test-dumpevents__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+19/54 Testing: regress__changelist_EPOLL
+19/54 Test: regress__changelist_EPOLL
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__changelist_EPOLL" end time: May 20 19:11 CST
+"regress__changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+20/54 Testing: regress__changelist_EPOLL_debug
+20/54 Test: regress__changelist_EPOLL_debug
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__changelist_EPOLL_debug" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__changelist_EPOLL_debug" end time: May 20 19:11 CST
+"regress__changelist_EPOLL_debug" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-changelist
+21/54 Testing: test-changelist__timerfd_changelist_EPOLL
+21/54 Test: test-changelist__timerfd_changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-changelist__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-changelist__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-changelist__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-eof
+22/54 Testing: test-eof__timerfd_changelist_EPOLL
+22/54 Test: test-eof__timerfd_changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-eof__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-eof__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-eof__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-closed
+23/54 Testing: test-closed__timerfd_changelist_EPOLL
+23/54 Test: test-closed__timerfd_changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-closed__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-closed__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-closed__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-fdleak
+24/54 Testing: test-fdleak__timerfd_changelist_EPOLL
+24/54 Test: test-fdleak__timerfd_changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-fdleak__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-fdleak__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-fdleak__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-init
+25/54 Testing: test-init__timerfd_changelist_EPOLL
+25/54 Test: test-init__timerfd_changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-init__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-init__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-init__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-time
+26/54 Testing: test-time__timerfd_changelist_EPOLL
+26/54 Test: test-time__timerfd_changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-time__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-time__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-time__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-weof
+27/54 Testing: test-weof__timerfd_changelist_EPOLL
+27/54 Test: test-weof__timerfd_changelist_EPOLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-weof__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-weof__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-weof__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-dumpevents
+28/54 Testing: test-dumpevents__timerfd_changelist_EPOLL
+28/54 Test: test-dumpevents__timerfd_changelist_EPOLL
+Command: "" "|" "/usr/bin/python3" "/home/along/code/FTP/libevent-2.1.12-stable/test/check-dumpevents.py"
+Directory: /home/along/code/FTP/build
+"test-dumpevents__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-dumpevents__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"test-dumpevents__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+29/54 Testing: regress__timerfd_changelist_EPOLL
+29/54 Test: regress__timerfd_changelist_EPOLL
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__timerfd_changelist_EPOLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__timerfd_changelist_EPOLL" end time: May 20 19:11 CST
+"regress__timerfd_changelist_EPOLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+30/54 Testing: regress__timerfd_changelist_EPOLL_debug
+30/54 Test: regress__timerfd_changelist_EPOLL_debug
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__timerfd_changelist_EPOLL_debug" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__timerfd_changelist_EPOLL_debug" end time: May 20 19:11 CST
+"regress__timerfd_changelist_EPOLL_debug" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-changelist
+31/54 Testing: test-changelist__SELECT
+31/54 Test: test-changelist__SELECT
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-changelist__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-changelist__SELECT" end time: May 20 19:11 CST
+"test-changelist__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-eof
+32/54 Testing: test-eof__SELECT
+32/54 Test: test-eof__SELECT
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-eof__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-eof__SELECT" end time: May 20 19:11 CST
+"test-eof__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-closed
+33/54 Testing: test-closed__SELECT
+33/54 Test: test-closed__SELECT
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-closed__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-closed__SELECT" end time: May 20 19:11 CST
+"test-closed__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-fdleak
+34/54 Testing: test-fdleak__SELECT
+34/54 Test: test-fdleak__SELECT
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-fdleak__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-fdleak__SELECT" end time: May 20 19:11 CST
+"test-fdleak__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-init
+35/54 Testing: test-init__SELECT
+35/54 Test: test-init__SELECT
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-init__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-init__SELECT" end time: May 20 19:11 CST
+"test-init__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-time
+36/54 Testing: test-time__SELECT
+36/54 Test: test-time__SELECT
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-time__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-time__SELECT" end time: May 20 19:11 CST
+"test-time__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-weof
+37/54 Testing: test-weof__SELECT
+37/54 Test: test-weof__SELECT
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-weof__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-weof__SELECT" end time: May 20 19:11 CST
+"test-weof__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-dumpevents
+38/54 Testing: test-dumpevents__SELECT
+38/54 Test: test-dumpevents__SELECT
+Command: "" "|" "/usr/bin/python3" "/home/along/code/FTP/libevent-2.1.12-stable/test/check-dumpevents.py"
+Directory: /home/along/code/FTP/build
+"test-dumpevents__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-dumpevents__SELECT" end time: May 20 19:11 CST
+"test-dumpevents__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+39/54 Testing: regress__SELECT
+39/54 Test: regress__SELECT
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__SELECT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__SELECT" end time: May 20 19:11 CST
+"regress__SELECT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+40/54 Testing: regress__SELECT_debug
+40/54 Test: regress__SELECT_debug
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__SELECT_debug" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__SELECT_debug" end time: May 20 19:11 CST
+"regress__SELECT_debug" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-changelist
+41/54 Testing: test-changelist__POLL
+41/54 Test: test-changelist__POLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-changelist__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-changelist__POLL" end time: May 20 19:11 CST
+"test-changelist__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-eof
+42/54 Testing: test-eof__POLL
+42/54 Test: test-eof__POLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-eof__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-eof__POLL" end time: May 20 19:11 CST
+"test-eof__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-closed
+43/54 Testing: test-closed__POLL
+43/54 Test: test-closed__POLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-closed__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-closed__POLL" end time: May 20 19:11 CST
+"test-closed__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-fdleak
+44/54 Testing: test-fdleak__POLL
+44/54 Test: test-fdleak__POLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-fdleak__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-fdleak__POLL" end time: May 20 19:11 CST
+"test-fdleak__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-init
+45/54 Testing: test-init__POLL
+45/54 Test: test-init__POLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-init__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-init__POLL" end time: May 20 19:11 CST
+"test-init__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-time
+46/54 Testing: test-time__POLL
+46/54 Test: test-time__POLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-time__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-time__POLL" end time: May 20 19:11 CST
+"test-time__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-weof
+47/54 Testing: test-weof__POLL
+47/54 Test: test-weof__POLL
+Command: ""
+Directory: /home/along/code/FTP/build
+"test-weof__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-weof__POLL" end time: May 20 19:11 CST
+"test-weof__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-dumpevents
+48/54 Testing: test-dumpevents__POLL
+48/54 Test: test-dumpevents__POLL
+Command: "" "|" "/usr/bin/python3" "/home/along/code/FTP/libevent-2.1.12-stable/test/check-dumpevents.py"
+Directory: /home/along/code/FTP/build
+"test-dumpevents__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-dumpevents__POLL" end time: May 20 19:11 CST
+"test-dumpevents__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+49/54 Testing: regress__POLL
+49/54 Test: regress__POLL
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__POLL" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__POLL" end time: May 20 19:11 CST
+"regress__POLL" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/regress
+50/54 Testing: regress__POLL_debug
+50/54 Test: regress__POLL_debug
+Command: "" "--quiet"
+Directory: /home/along/code/FTP/build
+"regress__POLL_debug" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"regress__POLL_debug" end time: May 20 19:11 CST
+"regress__POLL_debug" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-ratelim
+51/54 Testing: test-ratelim__group_lim
+51/54 Test: test-ratelim__group_lim
+Command: "" "-g" "30000" "-n" "30" "-t" "100" "--check-grouplimit" "1000" "--check-stddev" "100"
+Directory: /home/along/code/FTP/build
+"test-ratelim__group_lim" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-ratelim__group_lim" end time: May 20 19:11 CST
+"test-ratelim__group_lim" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-ratelim
+52/54 Testing: test-ratelim__con_lim
+52/54 Test: test-ratelim__con_lim
+Command: "" "-c" "1000" "-n" "30" "-t" "100" "--check-connlimit" "50" "--check-stddev" "50"
+Directory: /home/along/code/FTP/build
+"test-ratelim__con_lim" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-ratelim__con_lim" end time: May 20 19:11 CST
+"test-ratelim__con_lim" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-ratelim
+53/54 Testing: test-ratelim__group_con_lim
+53/54 Test: test-ratelim__group_con_lim
+Command: "" "-c" "1000" "-g" "30000" "-n" "30" "-t" "100" "--check-grouplimit" "1000" "--check-connlimit" "50" "--check-stddev" "50"
+Directory: /home/along/code/FTP/build
+"test-ratelim__group_con_lim" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-ratelim__group_con_lim" end time: May 20 19:11 CST
+"test-ratelim__group_con_lim" time elapsed: 00:00:00
+----------------------------------------------------------
+
+Unable to find executable: /home/along/code/FTP/build/bin/test-ratelim
+54/54 Testing: test-ratelim__group_con_lim_drain
+54/54 Test: test-ratelim__group_con_lim_drain
+Command: "" "-c" "1000" "-g" "35000" "-n" "30" "-t" "100" "-G" "500" "--check-grouplimit" "1000" "--check-connlimit" "50" "--check-stddev" "50"
+Directory: /home/along/code/FTP/build
+"test-ratelim__group_con_lim_drain" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test-ratelim__group_con_lim_drain" end time: May 20 19:11 CST
+"test-ratelim__group_con_lim_drain" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 20 19:11 CST

@@ -1,25 +1,23 @@
 GCC ?= g++
 CCMODE = PROGRAM
-INCLUDES =  -I/opt/libevent/include/
+INCLUDES =  -I/usr/local/include/
 CFLAGS =  -Wall $(MACRO) 
-TARGET = ftpSrv
+CFLAGS = -Wall -g -DTEST #开启测试模式testout()
+TARGET = ftpServer
 SRCS := $(wildcard *.cpp)   
-LIBS = -L /opt/libevent/lib/  -levent -lpthread
+LIBS = -L /usr/local/lib/  -levent -lpthread
 
 
 
 ifeq ($(CCMODE),PROGRAM)
-$(TARGET): $(LINKS) $(SRCS) 
+$(TARGET): 
 	$(GCC) $(CFLAGS) $(INCLUDES) -o $(TARGET)  $(SRCS) $(LIBS)
 	@chmod +x $(TARGET)
 	@echo make $(TARGET) ok.
+
+.PHONY:clean
 clean:
 	rm -rf $(TARGET)
 endif
 
- 
-clean:
-	rm -f $(TARGET)
- 
 .PHONY:install
-.PHONY:clean

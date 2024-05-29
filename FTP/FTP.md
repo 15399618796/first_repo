@@ -92,8 +92,6 @@ XTask *XFtpFactory::CreateTask() {
 
   x->Reg("STOR", new XFtpSTOR());
 
-  
-
   return x;
 
 }

@@ -7,8 +7,6 @@ namespace Ui {
 class FtpConnectDlg;
 }
 
-
-
 class FtpConnectDlg : public QDialog
 {
     Q_OBJECT

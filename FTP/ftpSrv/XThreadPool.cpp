@@ -7,10 +7,7 @@ using namespace std;
 
 #include "testUtil.h"
 
-/*
- *  ·ÖÅäÈÎÎñµ½Ïß³Ì³Ø
- */
-void XThreadPool::Dispatch(XTask *task) {
+void XThreadPool::Dispatch(XTask *task) { // åˆ†å‘ä»»åŠ¡åˆ°çº¿ç¨‹æ± ä¸­çš„å…¶ä¸­ä¸€ä¸ªçº¿ç¨‹ä¸Š,å¹¶æ¿€æ´»è¯¥çº¿ç¨‹
 	testout("main thread At XThreadPoll::dispathch()");
 	
 	if (!task) return;
@@ -18,17 +15,13 @@ void XThreadPool::Dispatch(XTask *task) {
 	lastThread = tid;
 	XThread *t = threads[tid];
 	
-	// Ìí¼ÓÈÎÎñ
 	t->AddTack(task);
-	// ¼¤»îÏß³Ì
 	t->Activate();
 }
 
-/*
- *  ³õÊ¼»¯Ïß³Ì³Ø
- */
-void XThreadPool::Init(int threadCount) {
+void XThreadPool::Init(int threadCount) { // åˆå§‹åŒ–çº¿ç¨‹æ± 
 	testout("main thread At XThreadPoll::Init()");
+
 	this->threadCount = threadCount;
 	this->lastThread = -1;
 	for (int i = 0; i < threadCount; i++) {
@@ -37,7 +30,7 @@ void XThreadPool::Init(int threadCount) {
 		t->id = i;
 		t->Start();
 		threads.push_back(t);
+		// ä½¿å½“å‰çº¿ç¨‹æš‚åœä¸€æ®µæ—¶é—´10ms,ç›¸å½“äºsleep()
 		this_thread::sleep_for(chrono::milliseconds(10));
 	}
-
 }

@@ -1,54 +1,69 @@
 #pragma once
 #include <event2/bufferevent.h>
+#include <string>
+
+using namespace std;
 
 #include "XTask.h"
 
-#include <string>
-using namespace std;
 
 struct bufferevent;
 
-class XFtpTask :
-	public XTask
+// 实现FTP任务的类，继承自XTask
+class XFtpTask : public XTask
 {
 public:
-	string curDir = "/";
-	string rootDir = "/";
+	string curDir = "/";  // 当前目录，默认为根目录
+	string rootDir = "/"; // 前置目录，默认为根目录
 	string ip = "";
 	int port = 0;
-	XFtpTask *cmdTask = 0;
+	XFtpTask *cmdTask = 0; // 指向一个命令任务的指针，用于处理特定的FTP命令
 
-	// ����Э��
-	virtual void Parse(std::string, std::string) {}
+	// 虚函数，解析传入的字符串命令和参数
+	virtual void Parse(std::string cmd, std::string arg) {}
 
-	// �ظ�cmd��Ϣ
+	// 处理接收到的命令消息
 	void ResCMD(string msg);
 
-	// ��������ͨ��
-	void ConnectoPORT();
-	// �ر�����
-	void ClosePORT();
+	// 建立连接并设置端口
+    void ConnectoPORT();
 
-	// ͨ������ͨ����������
-	void Send(const string& data);
-	void Send(const char *data, size_t datasize);
+    // 关闭与服务器的端口连接
+    void ClosePORT();
 
-	virtual void Event(bufferevent *, short) {}
-	virtual void Read(bufferevent *) {}
-	virtual void Write(bufferevent *) {}
+    // 发送字符串数据
+    void Send(const string &data);
+    // 发送字符数组数据
+    void Send(const char *data, size_t datasize);
 
-	void Setcb(struct bufferevent*);
-	bool Init() { return true; }
+    // 当事件发生时的处理函数，可被重写以提供具体实现
+    virtual void Event(bufferevent *, short) {}
 
-	~XFtpTask();
+    // 当可以读取数据时的处理函数，可被重写以提供具体实现
+    virtual void Read(bufferevent *) {}
+
+    // 当可以写入数据时的处理函数，可被重写以提供具体实现
+    virtual void Write(bufferevent *) {}
+
+    // 设置回调函数，开启读写缓冲区
+    void Setcb(struct bufferevent *);
+
+    // 初始化方法，返回true表示成功
+    bool Init() { return true; }
+
+    // XFtpTask 析构函数
+    ~XFtpTask();
 
 protected:
-	static void EventCB(bufferevent *, short, void *);
-	static void ReadCB(bufferevent *, void *);
-	static void WriteCB(bufferevent *, void *);
+    // 事件回调函数（静态）
+    static void EventCB(bufferevent *, short, void *);
+    // 读取回调函数（静态）
+    static void ReadCB(bufferevent *, void *);
+    // 写入回调函数（静态）
+    static void WriteCB(bufferevent *, void *);
 
-	// ��CMD����������ͨ������LIST��RETR����������ͨ��
-	bufferevent *bev = 0;
-	FILE *fp = 0;
+    // bufferevent 对象指针
+    bufferevent *bev = 0;
+    // 文件指针
+    FILE *fp = 0;
 };
-

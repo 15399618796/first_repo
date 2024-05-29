@@ -3,24 +3,32 @@
 
 #include <map>
 
+// XFtpServerCMD 类继承自 XFtpTask，用于处理 FTP 服务器的命令。
 class XFtpServerCMD : public XFtpTask
 {
 public:
-	// ��ʼ������
-	virtual bool Init();
+    // 初始化函数，返回初始化是否成功。
+    virtual bool Init();
 
-	virtual void Event(bufferevent *be, short events);
+    // 事件处理函数，接收 bufferevent 和事件类型参数。
+    virtual void Event(bufferevent *be, short events);
 
-	virtual void Read(bufferevent *be);
+    // 从 bufferevent 中读取数据的函数。
+    virtual void Read(bufferevent *be);
 
-	// ע����������󣬲���Ҫ�����̰߳�ȫ������ʱδ�ַ����߳�
-	void Reg(std::string, XFtpTask *call);
+    // 注册命令及其对应的 XFtpTask 处理函数。
+    void Reg(std::string cmd, XFtpTask *call);
 
-
-	XFtpServerCMD();
-	~XFtpServerCMD();
+    // 构造函数
+    XFtpServerCMD();
+    
+    // 析构函数
+    ~XFtpServerCMD();
+    
 private:
-	std::map<std::string, XFtpTask*>calls;
-	std::map<XFtpTask*, int>calls_del;
+    // 存储命令字符串与 XFtpTask 对象映射的容器。
+    std::map<std::string, XFtpTask*> calls;
+    
+    // 存储待删除的 XFtpTask 对象映射的容器。
+    std::map<XFtpTask*, int> calls_del;
 };
-

@@ -1,0 +1,2 @@
+Failed to initialize instances shared memory:  "QSharedMemory::handle: doesn't exist"
+QFSFileEngine::open: No file name specified

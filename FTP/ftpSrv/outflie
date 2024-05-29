@@ -1,0 +1,46 @@
+main thread At XThreadPoll::Init()
+Create thread0
+0 thread At Start()
+0 thread At Setup()
+0 thread::Main() begin
+Create thread1
+1 thread At Start()
+1 thread At Setup()
+1 thread::Main() begin
+Create thread2
+2 thread At Start()
+2 thread At Setup()
+2 thread::Main() begin
+Create thread3
+3 thread At Start()
+3 thread At Setup()
+3 thread::Main() begin
+Create thread4
+4 thread At Start()
+4 thread At Setup()
+4 thread::Main() begin
+Create thread5
+5 thread At Start()
+5 thread At Setup()
+5 thread::Main() begin
+Create thread6
+6 thread At Start()
+6 thread At Setup()
+6 thread::Main() begin
+Create thread7
+7 thread At Start()
+7 thread At Setup()
+7 thread::Main() begin
+Create thread8
+8 thread At Start()
+8 thread At Setup()
+8 thread::Main() begin
+Create thread9
+9 thread At Start()
+9 thread At Setup()
+9 thread::Main() begin
+
+ev:0x584826a199b0
+err:0
+begin to listen...
+current thread : 29788
