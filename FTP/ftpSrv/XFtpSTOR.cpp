@@ -48,7 +48,7 @@ void XFtpSTOR::Parse(std::string type, std::string msg) {
     int pos = msg.rfind(" ") + 1;
     std::string filename = msg.substr(pos, msg.size() - pos - 2);
     // 拼接文件的完整路径
-    std::string path = cmdTask->rootDir + cmdTask->curDir + filename;
+    std::string path = filename;
     testout("filepath:[" << path << "]");
 
     // 尝试打开文件以准备写入

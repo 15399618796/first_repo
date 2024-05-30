@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "ftpClient"
+		},
+		{
+			"path": "ftpSrv"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"qdatastream": "cpp",
+			"qtcpsocket": "cpp",
+			"qnetworkaccessmanager": "cpp"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "qdatastream": "cpp",
+        "qtcpsocket": "cpp",
+        "qnetworkaccessmanager": "cpp"
+    }
+}
