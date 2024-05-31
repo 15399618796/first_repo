@@ -51,6 +51,8 @@ private slots:
 
     QByteArray wait();
 
+    void urlInit();
+
 private:
     Ui::MainWindow *ui;
     QTcpSocket *ftpSocket;
@@ -64,8 +66,6 @@ private:
     QNetworkAccessManager manager;
     QUrl ftpUrl; // 设置FTP连接参数，参考前面的代码示例
     QUrl fileUrl; // 用于上传和下载文件时使用。
-    QFile file;
-
 
     QNetworkRequest request; // 用于上传和下载文件时使用。
     QNetworkReply *reply; 

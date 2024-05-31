@@ -84,6 +84,10 @@ QByteArray MainWindow::wait(){
     return response; // 返回服务器响应。
 }
 
+void MainWindow::urlInit(){
+    
+}
+
 // 发送 PORT 命令
 void MainWindow::sendPortCommand()
 {
@@ -226,8 +230,10 @@ void MainWindow::on_pushButton_2_clicked()
     localFilePath = fileModel->filePath(index);
     localFileName = fileModel->data(index).toString(); // 获取当前选中文件的名称。
     qDebug()<<"filePath"<<localFilePath; // 打印localFilePath，用于调试。
+    qDebug()<<"fileName"<<localFileName; // 打印localFileName，用于调试。
 
     // 设置file
+    QFile file;
     file.setFileName(localFilePath);
     if (!file.open(QIODevice::ReadOnly)) {
         qDebug() << "Failed to open file";
@@ -236,7 +242,7 @@ void MainWindow::on_pushButton_2_clicked()
 
     // 设置fileUrl，用于上传文件。
     index = ui->listView->currentIndex(); // 获取当前选中文件的索引。
-    remoteFilePath = curDir + "/" ; // 获取当前选中文件的路径,fileName是传送的文件
+    remoteFilePath = curDir + "/" ; // 获取当前选中文件的路径
     qDebug()<<"remoteFilePath"<<remoteFilePath; // 打印remoteFilePath，用于调试。
 
     fileUrl = ftpUrl;
@@ -257,6 +263,7 @@ void MainWindow::on_pushButton_2_clicked()
     QObject::connect(reply, &QNetworkReply::finished, [&]() {
         if (reply->error() == QNetworkReply::NoError) {
             qDebug() << "File uploaded successfully";
+            ui->statusLabel->setText("File uploaded successfully"); // 更新状态栏的文本。
         } else {
             qDebug() << "Error:" << reply->errorString();
         }
@@ -270,10 +277,34 @@ void MainWindow::on_pushButton_2_clicked()
 // 下载文件
 void MainWindow::on_pushButton_3_clicked()
 {
+    ftpUrl.setScheme("ftp");        // 设置协议为FTP
+    ftpUrl.setHost("127.0.0.1");    // 设置FTP服务器地址
+    ftpUrl.setPort(21);             // 设置FTP服务器端口，默认为21
+    ftpUrl.setUserName("along");    
+    ftpUrl.setPassword("654321");   
+    // ftpUrl.setPath("/home/along/"); // 设置远程路径
+    // ftpUrl = "ftp://along:654321@127.0.0.1:21"
+    // ftpUrl.setUrl("ftp://along:654321@127.0.0.1:21/home/along/"); // 设置URL, 包括用户名、密码、服务器地址、端口、远程路径等信息。
+
+    // 获取treeView中当前目录文件的路径，并设置为远程路径的一部分。
+    QModelIndex index = ui->treeView->currentIndex();
+    localFilePath = fileModel->filePath(index);
+    localFileName = fileModel->data(index).toString(); // 获取当前选中文件的名称。
+    qDebug()<<"filePath"<<localFilePath; // 打印localFilePath，用于调试。
+
+    // 设置fileUrl，用于下载文件。
+    index = ui->listView->currentIndex(); // 获取当前选中文件的索引。
+    remoteFilePath = curDir + "/" ; // 获取当前选中文件的路径
+    remoteFileName = listModel->data(index).toString(); // 获取当前选中文件的名称。
+    remoteFileName.remove(remoteFileName.size() - 1, 1); // 去除文件名末尾的换行符。
+    qDebug()<<"remoteFilePath"<<remoteFilePath; // 打印remoteFilePath，用于调试。
+    qDebug()<<"remoteFileName"<<remoteFileName; // 打印remoteFileName，用于调试。
+
     fileUrl = ftpUrl;
     fileUrl.setPath(fileUrl.path() + remoteFilePath + remoteFileName);
     qDebug()<<"fileUrl"<<fileUrl.toString(); // 打印fileUrl，用于调试。
 
+    // request.setUrl(fileUrl); // 设置request的URL为fileUrl。
     request = QNetworkRequest(fileUrl); // 创建一个向指定URL发送GET请求的QNetworkRequest对象。
     reply = manager.get(request); // 使用网络管理器发送GET请求，并将返回的reply对象用于接收响应。
 
@@ -283,13 +314,12 @@ void MainWindow::on_pushButton_3_clicked()
 
     QObject::connect(reply, &QNetworkReply::finished, [&]() {
         if (reply->error() == QNetworkReply::NoError) { // 检查是否有错误发生。
-            QFileInfo fileInfo(remoteFilePath + remoteFileName); // 获取文件信息。
-            QString fileName = fileInfo.fileName(); // 获取文件名。
-            QFile file(localFilePath + "/" + fileName); // 创建一个QFile对象，用于保存下载的文件。
+            QFile file(localFilePath + "/" + remoteFileName); // 创建一个QFile对象，用于保存下载的文件。
             if (file.open(QIODevice::WriteOnly)) { // 检查文件是否成功打开。
                 file.write(reply->readAll()); // 将响应的内容写入文件。
                 file.close(); // 关闭文件。
                 qDebug() << "File downloaded successfully";
+                ui->statusLabel->setText("File downloaded successfully"); // 更新状态标签。
             } else { // 如果文件无法打开。
                 qDebug() << "Failed to open file for writing";
             }
