@@ -14,7 +14,7 @@ MainWindow::MainWindow(QWidget *parent)
     setWindowIcon(QIcon(":/images/icon.png"));
 }
 
-MainWindow::~MainWindow()w
+MainWindow::~MainWindow()
 {
     delete ui;
 }

@@ -6,40 +6,211 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1430</width>
-    <height>872</height>
+    <width>1071</width>
+    <height>974</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>150</x>
-      <y>530</y>
-      <width>121</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
-   </widget>
+   <layout class="QVBoxLayout" name="verticalLayout_5"/>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1430</width>
+     <width>1071</width>
      <height>32</height>
     </rect>
    </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actOpen"/>
+   <addaction name="actionbbb"/>
+  </widget>
+  <action name="actOpen">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/icons/open.bmp</normaloff>:/icons/open.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+   <property name="toolTip">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="actSave">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/save.bmp</normaloff>:/images/icons/save.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>另存文件</string>
+   </property>
+   <property name="toolTip">
+    <string>表格内容另存为文件</string>
+   </property>
+  </action>
+  <action name="actAppend">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/append.bmp</normaloff>:/images/icons/append.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>添加行</string>
+   </property>
+   <property name="toolTip">
+    <string>添加一行</string>
+   </property>
+  </action>
+  <action name="actInsert">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/306.bmp</normaloff>:/images/icons/306.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>插入行</string>
+   </property>
+   <property name="toolTip">
+    <string>插入一行</string>
+   </property>
+  </action>
+  <action name="actDelete">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/delete.bmp</normaloff>:/images/icons/delete.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>删除行</string>
+   </property>
+   <property name="toolTip">
+    <string>删除当前行</string>
+   </property>
+  </action>
+  <action name="actExit">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/exit.bmp</normaloff>:/images/icons/exit.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actModelData">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/import1.bmp</normaloff>:/images/icons/import1.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>模型数据预览</string>
+   </property>
+   <property name="toolTip">
+    <string>模型数据显示到文本框里</string>
+   </property>
+  </action>
+  <action name="actAlignLeft">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/508.bmp</normaloff>:/images/icons/508.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>居左</string>
+   </property>
+   <property name="toolTip">
+    <string>文字左对齐</string>
+   </property>
+  </action>
+  <action name="actAlignCenter">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/510.bmp</normaloff>:/images/icons/510.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>居中</string>
+   </property>
+   <property name="toolTip">
+    <string>文字居中</string>
+   </property>
+  </action>
+  <action name="actAlignRight">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/512.bmp</normaloff>:/images/icons/512.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>居右</string>
+   </property>
+   <property name="toolTip">
+    <string>文字右对齐</string>
+   </property>
+  </action>
+  <action name="actFontBold">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>:/images/icons/500.bmp</normaloff>:/images/icons/500.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>粗体</string>
+   </property>
+   <property name="toolTip">
+    <string>粗体字体</string>
+   </property>
+  </action>
+  <action name="actionbbb">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/icons/append.bmp</normaloff>:/icons/append.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>bbb</string>
+   </property>
+   <property name="toolTip">
+    <string>bbb</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::TextHeuristicRole</enum>
+   </property>
+  </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
  <connections/>
 </ui>

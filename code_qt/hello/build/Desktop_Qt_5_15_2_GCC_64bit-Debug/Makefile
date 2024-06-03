@@ -53,9 +53,11 @@ OBJECTS_DIR   = ./
 ####### Files
 
 SOURCES       = ../../main.cpp \
-		../../mainwindow.cpp moc_mainwindow.cpp
+		../../mainwindow.cpp qrc_image.cpp \
+		moc_mainwindow.cpp
 OBJECTS       = main.o \
 		mainwindow.o \
+		qrc_image.o \
 		moc_mainwindow.o
 DIST          = /opt/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf \
@@ -428,7 +430,8 @@ Makefile: ../../hello.pro /opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /op
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/exceptions.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf \
 		/opt/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf \
-		../../hello.pro
+		../../hello.pro \
+		../../image.qrc
 	$(QMAKE) -o Makefile ../../hello.pro -spec linux-g++ CONFIG+=debug CONFIG+=qml_debug
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/spec_pre.prf:
 /opt/Qt/5.15.2/gcc_64/mkspecs/common/unix.conf:
@@ -610,6 +613,7 @@ Makefile: ../../hello.pro /opt/Qt/5.15.2/gcc_64/mkspecs/linux-g++/qmake.conf /op
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/yacc.prf:
 /opt/Qt/5.15.2/gcc_64/mkspecs/features/lex.prf:
 ../../hello.pro:
+../../image.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ../../hello.pro -spec linux-g++ CONFIG+=debug CONFIG+=qml_debug
 
@@ -624,6 +628,7 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
+	$(COPY_FILE) --parents ../../image.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /opt/Qt/5.15.2/gcc_64/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents ../../mainwindow.h $(DISTDIR)/
 	$(COPY_FILE) --parents ../../main.cpp ../../mainwindow.cpp $(DISTDIR)/
@@ -651,8 +656,30 @@ check: first
 
 benchmark: first
 
-compiler_rcc_make_all:
+compiler_rcc_make_all: qrc_image.cpp
 compiler_rcc_clean:
+	-$(DEL_FILE) qrc_image.cpp
+qrc_image.cpp: ../../image.qrc \
+		/opt/Qt/5.15.2/gcc_64/bin/rcc \
+		../../icons/508.bmp \
+		../../icons/delete.bmp \
+		../../icons/exit.bmp \
+		../../icons/512.bmp \
+		../../icons/import1.bmp \
+		../../icons/export1.bmp \
+		../../icons/save.bmp \
+		../../icons/502.bmp \
+		../../icons/open.bmp \
+		../../icons/428.bmp \
+		../../icons/insert.bmp \
+		../../icons/510.bmp \
+		../../icons/append.bmp \
+		../../icons/306.bmp \
+		../../icons/clean.bmp \
+		../../icons/500.bmp \
+		../../icons/remove.bmp
+	/opt/Qt/5.15.2/gcc_64/bin/rcc -name image ../../image.qrc -o qrc_image.cpp
+
 compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) moc_predefs.h
@@ -790,7 +817,7 @@ compiler_yacc_impl_make_all:
 compiler_yacc_impl_clean:
 compiler_lex_make_all:
 compiler_lex_clean:
-compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean 
+compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean 
 
 ####### Compile
 
@@ -1019,6 +1046,9 @@ mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtGui/qicon.h \
 		ui_mainwindow.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtCore/QVariant \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QAction \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qaction.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qactiongroup.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QApplication \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qapplication.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtCore/qcoreapplication.h \
@@ -1026,18 +1056,61 @@ mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qdesktopwidget.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtGui/qguiapplication.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtGui/qinputmethod.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QGridLayout \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qgridlayout.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qlayout.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qlayoutitem.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qboxlayout.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QGroupBox \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qgroupbox.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qframe.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QListView \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qlistview.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractitemview.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractscrollarea.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtCore/qitemselectionmodel.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractitemdelegate.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qstyleoption.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractspinbox.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qvalidator.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtCore/qregularexpression.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qslider.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractslider.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qstyle.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qtabbar.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qrubberband.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QMenuBar \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qmenubar.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qmenu.h \
-		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qaction.h \
-		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qactiongroup.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QPlainTextEdit \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qplaintextedit.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qtextedit.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qtextdocument.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qtextoption.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qtextcursor.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qtextformat.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qpen.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qabstracttextdocumentlayout.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qtextlayout.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qglyphrun.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qrawfont.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtGui/qfontdatabase.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QPushButton \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qpushbutton.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qabstractbutton.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QSplitter \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qsplitter.h \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QStatusBar \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qstatusbar.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QToolBar \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/qtoolbar.h \
+		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QVBoxLayout \
 		/opt/Qt/5.15.2/gcc_64/include/QtWidgets/QWidget
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../../mainwindow.cpp
+
+qrc_image.o: qrc_image.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_image.o qrc_image.cpp
 
 moc_mainwindow.o: moc_mainwindow.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_mainwindow.o moc_mainwindow.cpp
